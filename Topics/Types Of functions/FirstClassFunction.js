@@ -23,7 +23,7 @@ var b = function (){
 //* Note we can access axy from outside of function we use it inside only
 
 //! Arrow function
-const a  =()=> {
+const a  = ()=> {
     console.log("Arrow function..");
 }
 

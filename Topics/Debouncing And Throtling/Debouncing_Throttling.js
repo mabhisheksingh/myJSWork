@@ -1,4 +1,5 @@
 //The debounce() function forces a function to wait a certain amount of time before running again
+//In JavaScript, the use case is similar. We want to trigger a function, but only once per use case.
 //Throttling is a technique where we make the function call in a predetermined time interval irrespective of continuous user actions
 
 let input = document.getElementById("input");
@@ -76,9 +77,9 @@ function ThrottleA(cb,delay=1000){
 
 //mousemOve
 document.addEventListener("mousemove", (e) => {
-      incrementText(default1);
-      updateDebounceText();
-      updateThrottleText();
+    incrementText(default1);
+    updateDebounceText();
+    updateThrottleText();
 });
 
 function incrementText (element){
