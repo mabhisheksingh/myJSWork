@@ -1,0 +1,24 @@
+{
+  "name": "myjswork",
+  "version": "1.0.0",
+  "description": "This is my js Notes for exam",
+  "main": "PolyfillsExample.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mabhisheksingh/myJSWork.git"
+  },
+  "author": "abhishekSingh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mabhisheksingh/myJSWork/issues"
+  },
+  "homepage": "https://github.com/mabhisheksingh/myJSWork#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1191.0",
+    "chalk": "^5.0.1"
+  }
+}
