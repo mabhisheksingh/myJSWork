@@ -35,3 +35,11 @@ export const data =[
     }
 ]
   
+
+function add(a,b){
+  if(a  <0 ) throw new Error("must be greator than 0");
+
+  return a +b;
+}
+
+const result  = add(-5,7)

@@ -1,0 +1,19 @@
+{
+  "name": "layer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1231.0",
+    "axios": "^1.1.2",
+    "got": "^12.5.1",
+    "nanoid": "^4.0.0",
+    "uuid": "^9.0.0"
+  }
+}

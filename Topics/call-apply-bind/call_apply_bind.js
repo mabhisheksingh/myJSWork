@@ -15,8 +15,6 @@ let user={
     }
 }
 user.calc()
-
-
 const print = function(testingParamter){
     console.log(this);
     console.log("FirstName: "+this.firstName+" LastName : "+this.lastName," testingParamter "+testingParamter);
